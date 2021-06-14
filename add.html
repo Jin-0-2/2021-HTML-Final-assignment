@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/add.css">
+        <meta name="viewport" content="user=scalable=on,initial-scale=1">
+        <title>추가하기</title>
+    </head>
+    <body>
+        <div class="backimg"></div>
+        <header>    
+            <div class="container">
+                <h1 class="pull-left">
+                    <a href="./학기말과제.html">나의 신발장</a>
+                </h1>
+            </div>
+        </header><br><br>
+        <div id="divmain">
+            <h2>보유 신발 목록 추가하기</h2><hr>
+        <fieldset>
+        <table border="1">
+            <tr>
+                <th colspan="3">*체크박스 선택 항목만 등록*</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label>브랜드 선택</label></td>
+                <td>
+                    <input type="radio" id="adidas" name="brand"><label for="adidas">Adidas</label>
+                    <input type="radio" id="nike" name="brand"><label for="nike">Nike</label>
+                    <input type="radio" id="etc" name="brand"><label for="etc">etc</label>
+                    <input type="radio" id="Wish List" name="brand"><label for="wish">Wish List</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="신발이름">신발이름</label></td>
+                <td><input type="text" id="신발이름"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="size">사이즈 선택</label></td>
+                <td>
+                    <select id="size">
+                        <option>KR/JP</option>
+                        <option>US</option>
+                        <option>UK</option>
+                    </select>
+                    <select id="size">
+                        <optgroup label="KR/JP">
+                            <option>230</option>
+                            <option>240</option>
+                            <option>250</option>
+                            <option>260</option>
+                            <option>270</option>
+                            <option>280</option>
+                            <option>290</option>
+                            <option>300</option>
+                        </optgroup>
+                        <optgroup label="US">
+                            <option>8</option>
+                            <option>8.5</option>
+                            <option>9</option>
+                            <option>9.5</option>
+                            <option>10</option>
+                        </optgroup>
+                        <optgroup label="UK">
+                            <option>9</option>
+                            <option>9.5</option>
+                            <option>10</option>
+                            <option>10.5</option>
+                            <option>11</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="제품번호">제품 번호</label></td>
+                <td><input type="text" id="제품번호"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="색상">색상</label></td>
+                <td><input type="text" id="색상"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="price">구매 가격</label></td>
+                <td><input type="text" id="price">
+                    <select id="prize">
+                        <option>₩(KRW)</option>
+                        <option>$(USD)</option>
+                        <option>€(EUR)</option>
+                        <option>£(GBP)</option>
+                        <option>¥(JPY)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="count">보유 개수</label></td>
+                <td><input type="text" id="count"><p>개</p></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="pic_vid">사진 또는 동영상 선택하기</label></td>
+                <td><input type="file" id="pic_vid"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><label for="area">추가 정보 기입</label></td>
+                <td><textarea id="area" cols="80px" rows="10px"></textarea></td>
+            </tr>
+        </table>
+        </fieldset>
+        <div class="addB"><a href="./학기말과제.html" class="font">추가하기</a></div>
+        <div class="resetB"><a href="./add.html" class="font">다시하기</a></div>
+        <div class="cancelB"><a href="./학기말과제.html" class="font">취소</a></div>
+    </div>
+    <footer>
+        <div class="bottom_bar">
+            <div class="container"><br>- 본 사이트는 과제제작용 사이트입니다.<br>- 우송대학교 IT 융합학부 스마트 IT 보안학과 정진영 <br>- E-mail: jjy020815@gmail.com <br>- Phone : 010 - 5668 - 4478<br></div>
+        </div>
+    </footer>
+    </body>
+</html>
